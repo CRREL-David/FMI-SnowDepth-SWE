@@ -1,5 +1,5 @@
 #Developed by David Brodylo from USACE CRREL-AKRO. For questions contact david.brodylo@usace.army.mil.
-#Purpose is to aid in estimating snow depth and snow water equivalent (SWE) with CNN, RF, SVM, ANN, LM, and and an ensemble (EA) model.
+#Purpose is to aid in estimating snow depth and snow water equivalent (SWE) with CNN, RF, SVM, ANN, LM, and an ensemble (EA) model.
 #Made with R version 4.5.0
 
 #Load necessary libraries
