@@ -1,5 +1,7 @@
 # FMI-SnowDepth-SWE
 
+Data and code to predict snow depth and Snow Water Equivalent (SWE) for six periods over several months in winter in northern Finland. Snow density can then be estimated from snow depth and SWE values. Random Forest (RF), Support Vector Machine (SVM), Artificial Neural Network (ANN), and Multiple Linear Regression (MLR) alongside a Convolutional Neural Network (CNN) were used to independently estimate snow depth and SWE values. A weighted ensemble approach of these models (referred to here as Ensemble Analysis (EA)) based on their respective R-Squared values was utilized to determine final values.
+
 #CSV Inputs
 
 Folder 'CSV Inputs' contains the input data (in-situ, aerial, and spaceborne) from all data sources that were used for the machine learning models.
@@ -13,7 +15,7 @@ Info about the column headers can be found in the file 'CSV model inputs.txt'.
 
 #Code
 
-Contains two seperate R scripts that depend on the files found in the 'CSV Inputs' folder. Snow_Depth_Code.R should be run first to estimate the snow depth. Then SWE_Code.R should be run after. Predicted outputs from the first code should be used as an input for the SWE prediction for the DATA for all image objects. SAMPLE data does not need to be changed for the field values.
+Contains two seperate R scripts that depend on the files found in the 'CSV Inputs' folder. Snow_Depth_Code.R should be run first to estimate the snow depth. Then SWE_Code.R should be run after. Predicted outputs from the first code should be used as an input for the SWE prediction for the DATA for all image objects. SAMPLE data does not need to be changed for the field values. May need to install Python to get 'keras3' and 'tensorflow' packages to function in R.
 
 #Shapefiles
 
