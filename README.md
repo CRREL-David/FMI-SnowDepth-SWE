@@ -1,6 +1,6 @@
 # FMI-SnowDepth-SWE
 
-Data and code to predict snow depth and Snow Water Equivalent (SWE) for six periods over several months in winter in northern Finland. Snow density can then be estimated from snow depth and SWE values. Random Forest (RF), Support Vector Machine (SVM), Artificial Neural Network (ANN), and Multiple Linear Regression (MLR) alongside a Convolutional Neural Network (CNN) were used to independently estimate snow depth and SWE values. A weighted ensemble approach of these models (referred to here as Ensemble Analysis (EA)) based on their respective R-Squared values was utilized to determine final values.
+Data and code to predict snow depth and Snow Water Equivalent (SWE) for six periods over several months in winter in northern Finland. Snow density can then be estimated from snow depth and SWE values. Random Forest (RF), Support Vector Machine (SVM), Feed-Forward Network (FFN), and Multiple Linear Regression (MLR) alongside a 1D-Convolutional Neural Network (CNN) were used to independently estimate snow depth and SWE values. A weighted ensemble approach of these models (referred to here as Ensemble Analysis (EA)) based on their respective R-Squared values was utilized to determine final values.
 
 #CSV Inputs
 
